@@ -1,0 +1,30 @@
+@mixin space-mono ($fw, $fz, $lh, $color) {
+    font-family: $space-mono, monospace;
+    font-weight: $fw;
+    font-size: $fz;
+    line-height: $lh;
+    color: $color;
+}
+
+@mixin lexend-deca ($fw, $fz, $lh, $color) {
+    font-family: $lexend-deca, sans-serif;
+    font-weight: $fw;
+    font-size: $fz;
+    line-height: $lh;
+    color: $color;
+}
+
+@mixin lexend-deca-p {
+    font-family: $lexend-deca, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+}
+
+@mixin space-mono-title {
+    font-family: $lexend-deca, monospace;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+}

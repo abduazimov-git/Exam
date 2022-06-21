@@ -1,0 +1,20 @@
+.all-buttons {
+    width: fit-content;
+    background-color: $yellow;
+    border: 3px solid $yellow;
+    @include space-mono (bold, 15px, 25px, $white);
+    padding: 14px 20px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.all-buttons:hover {
+    width: fit-content;
+    display: block;
+    cursor: pointer;
+    background-color: transparent;
+    color: $yellow;
+    padding: 14px 20px;
+    transition: 0.5s all;
+    box-sizing: border-box;
+}

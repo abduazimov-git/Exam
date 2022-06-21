@@ -1,0 +1,9 @@
+.header__nav-link {
+    @include space-mono(bold, 15px, 25px, $dim-grey);
+
+    &:hover {
+        cursor: pointer;
+        color: $yellow;
+        transition: 0.5s all;
+    }
+}
